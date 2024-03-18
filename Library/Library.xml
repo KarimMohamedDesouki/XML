@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles2.css"?>
+<library>
+    <location>Central Library</location>
+    <description>A modern library located in the heart of the city, providing access to a diverse range of books and resources.</description>
+    <librarian>
+        <name>Karim Mohamed</name>
+        <email>Karim@gmail.com</email>
+    </librarian>
+    <books>
+        <book>
+            <title>Introduction to Machine Learning</title>
+            <isbn>123</isbn>
+            <author>Emily Chen</author>
+            <preface>
+                <content>This book offers a comprehensive introduction to machine learning algorithms and techniques.</content>
+            </preface>
+            <parts>
+                <part>
+                    <title>Foundations of Machine Learning</title>
+                    <chapters>
+                        <chapter>
+                            <title>Introduction to Machine Learning</title>
+                            <summary>An overview of machine learning and its applications.</summary>
+                            <sections>
+                                <section>
+                                    <paragraph>This chapter covers the basics of supervised and unsupervised learning.</paragraph>
+                                    <paragraph>We'll discuss common machine learning tasks such as classification and regression.</paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+        <book>
+            <title>The Catcher in the Rye</title>
+            <isbn>978-0-316-76948-0</isbn>
+            <author>J.D. Salinger</author>
+            <preface>
+                <content>A classic novel that explores themes of adolescence, alienation, and identity.</content>
+            </preface>
+            <parts>
+                <part>
+                    <title>Part 1</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>An introduction to the protagonist, Holden Caulfield, and his experiences.</summary>
+                            <sections>
+                                <section>
+                                    <paragraph>The story begins with Holden Caulfield narrating his expulsion from Pencey Prep.</paragraph>
+                                    <paragraph>We're introduced to Holden's cynical view of society and his desire for authenticity.</paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+        <book>
+            <title>1984</title>
+            <isbn>978-0-452-28423-4</isbn>
+            <author>George Orwell</author>
+            <preface>
+                <content>A dystopian novel depicting a totalitarian regime and the struggle for freedom.</content>
+            </preface>
+            <parts>
+                <part>
+                    <title>Part 1</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>An introduction to the oppressive society of Oceania.</summary>
+                            <sections>
+                                <section>
+                                    <paragraph>The story begins with the protagonist, Winston Smith, expressing his discontent with the Party.</paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+    </books>
+</library>
