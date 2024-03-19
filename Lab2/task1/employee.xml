@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles1.css"?>
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee+)>
+    <!ELEMENT employee (name, phones, addresses, email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT phones (phone+)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST phone
+        type CDATA #REQUIRED>
+    <!ELEMENT addresses (address+)>
+    <!ELEMENT address (street, building_number, region, city, country)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT building_number (#PCDATA)>
+    <!ELEMENT region (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+]>
+
+<employees>
+    <employee>
+        <name>Karim </name>
+        <phones>
+            <phone type="home">123-456-7890</phone>
+            <phone type="mobile">987-654-3210</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>malkhefni</street>
+                <building_number>1</building_number>
+                <region>victoria</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>karim@gmail.com</email>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <phones>
+            <phone type="work">456-789-0123</phone>
+            <phone type="mobile">555-555-5555</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>456 Elm St</street>
+                <building_number>2</building_number>
+                <region>South</region>
+                <city>Townsville</city>
+                <country>Countryland</country>
+            </address>
+            <address>
+                <street>789 Oak St</street>
+                <building_number>3</building_number>
+                <region>West</region>
+                <city>Villageton</city>
+                <country>Countryland</country>
+            </address>
+        </addresses>
+        <email>jane.smith@example.com</email>
+    </employee>
+</employees>
