@@ -1,5 +1,5 @@
 <?php
-$xmlFile = 'file.xml';
+$xmlFile = 'users.xml';
 
 if (file_exists($xmlFile)) {
     $xml = simplexml_load_file($xmlFile);
@@ -55,7 +55,7 @@ function insertEntry($xml, $name, $email, $address, $phone)
     $entry->addChild('phone', $phone);
 
     // Save changes back to the file
-    $xml->asXML('file.xml');
+    $xml->asXML('users.xml');
 }
 
 function updateEntry($xml, $email, $newName, $newAddress, $newPhone)
@@ -66,7 +66,7 @@ function updateEntry($xml, $email, $newName, $newAddress, $newPhone)
             $user->address = $newAddress;
             $user->phone = $newPhone;
             // Save changes back to the file
-            $xml->asXML('file.xml');
+            $xml->asXML('users.xml');
             return;
         }
     }
@@ -80,7 +80,7 @@ function deleteEntry($xml, $email)
             $dom = dom_import_simplexml($user);
             $dom->parentNode->removeChild($dom);
             // Save changes back to the file
-            $xml->asXML('file.xml');
+            $xml->asXML('users.xml');
             return;
         }
     }
