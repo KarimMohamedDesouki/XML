@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="styles1.css"?>
-<!DOCTYPE employees [
-    <!ELEMENT employees (employee+)>
-    <!ELEMENT employee (name, phones, addresses, email)>
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT phones (phone+)>
-    <!ELEMENT phone (#PCDATA)>
-    <!ATTLIST phone
-        type CDATA #REQUIRED>
-    <!ELEMENT addresses (address+)>
-    <!ELEMENT address (street, building_number, region, city, country)>
-    <!ELEMENT street (#PCDATA)>
-    <!ELEMENT building_number (#PCDATA)>
-    <!ELEMENT region (#PCDATA)>
-    <!ELEMENT city (#PCDATA)>
-    <!ELEMENT country (#PCDATA)>
-    <!ELEMENT email (#PCDATA)>
-]>
-
+<?xml-stylesheet type="text/xsl" href="employee_style.xsl"?>
 <employees>
     <employee>
         <name>Karim </name>
         <phones>
-            <phone type="home">123-456-7890</phone>
-            <phone type="mobile">987-654-3210</phone>
+            <phone type="home">035780011</phone>
+            <phone type="mobile">0123914123</phone>
         </phones>
         <addresses>
             <address>
@@ -39,8 +21,8 @@
     <employee>
         <name>Sherif</name>
         <phones>
-            <phone type="work">456-789-0123</phone>
-            <phone type="mobile">555-555-5555</phone>
+            <phone type="work">038391104</phone>
+            <phone type="mobile">01202389655</phone>
         </phones>
         <addresses>
             <address>
@@ -56,8 +38,8 @@
     <employee>
         <name>Alaaa</name>
         <phones>
-            <phone type="work">456-729-0133</phone>
-            <phone type="mobile">555-531-5555</phone>
+            <phone type="work">038849123</phone>
+            <phone type="mobile">50112349655</phone>
         </phones>
         <addresses>
             <address>
