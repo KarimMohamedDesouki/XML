@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/style.css"?>
+<users>
+    <user>
+        <name>Karim</name>
+        <email>karim@gmail.com</email>
+        <address>28 victoria Raml</address>
+        <phone>01202898400</phone>
+    </user>
+    <user>
+        <name>Ashraf</name>
+        <email>Ashraf@gmail.com</email>
+        <address>smouha </address>
+        <phone>012391241123</phone>
+    </user>
+</users>
